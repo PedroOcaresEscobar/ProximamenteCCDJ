@@ -1,0 +1,39 @@
+/* #020042;azul
+#f8c415; amarillo
+*/
+
+body{
+    display: flex;
+    background-color: #020042; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.conten-todo{
+    margin-top: 5vh;
+    display: grid;
+
+    grid-template-rows: 2fr 1fr;
+}
+.conten-logo{
+    font-family: 'Poetsen One';
+    color: #f8c415;
+    h1{
+
+        font-size: xx-large;
+    }
+}
+
+.conten-rrss{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #f8c415;
+    padding: 25px;
+    border-radius: 50px;
+
+    gap: 5vw;
+}
